@@ -389,3 +389,39 @@ input{
         height: 370px;
     }
 }
+
+
+/*  fAQ */
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family:
+    "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;;
+   text-align: center;
+  
+}
+
+.faqbox{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    padding: 20px;
+
+   border-bottom: 1px solid black;
+    cursor: pointer;
+    margin-top: 10px;
+   
+     & i{
+        color: white;
+     }
+}
+.faqans{
+    display: none;
+    margin-top: 0px;
+}
